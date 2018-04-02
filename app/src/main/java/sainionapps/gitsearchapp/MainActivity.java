@@ -7,8 +7,6 @@
  * 2. Find star ratings in the raw json parse data.
  * 3. Handle exceptions.
  */
-
-
 package sainionapps.gitsearchapp;
 
 import android.app.ProgressDialog;
@@ -20,9 +18,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
-
 import com.squareup.picasso.Picasso;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -31,14 +27,12 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-
 import eu.amirs.JSON;
 
 public class MainActivity extends AppCompatActivity {
 
     List<String> listOfGits = new ArrayList<String>();
     ArrayAdapter<String> adapter;
-
     private HttpURLConnection urlConnection;
 
     @Override
